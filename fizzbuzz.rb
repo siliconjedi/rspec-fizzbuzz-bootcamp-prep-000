@@ -4,7 +4,7 @@ def fizzbuzz (n)
   if (fz && bz)
     "FizzBuzz"
   elsif (fz)
-    "Fizz"
+    return "Fizz"
   elsif (bz)
     "Buzz"
   else
